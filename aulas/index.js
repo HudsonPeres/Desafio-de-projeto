@@ -1,5 +1,5 @@
 // Defina o nome e a quantidade de experiência (XP) do herói
-let nomeHeroi = "Exemplo";
+let nomeHeroi = "Hudson";
 let xpHeroi = 8965; // Coloque aqui a quantidade desejada de XP
 
 // Utilize uma estrutura de decisão para determinar o nível com base na XP
@@ -24,4 +24,4 @@ if (xpHeroi < 1000) {
 }
 
 // Exiba a mensagem com o nome e o nível do herói
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
+console.log(`O Herói ${nomeHeroi} está no nível de ${nivelHeroi}`);
