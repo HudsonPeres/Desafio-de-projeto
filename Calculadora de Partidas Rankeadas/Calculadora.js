@@ -2,6 +2,9 @@ function calcNivel(vitoria, derrota) {
     const saldoVit = vitoria - derrota;
     let nivel;
 
+    
+    calcNivel(25, 5);
+
     if (vitorias < 10) nivel = "Ferro";
     else if (vitorias <= 20) nivel = "Bronze";
     else if (vitorias <= 50) nivel = "Prata";
